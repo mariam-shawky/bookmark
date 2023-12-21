@@ -1,0 +1,103 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+h1{
+
+    font-family: 'Kalnia', serif;
+    font-weight: 700;
+    position: relative;
+
+}
+
+/* h1::before{
+
+content:url(../images/2899445\ -\ Copy.jpg) ;
+position: absolute;
+top: -50%;
+left: -50%;
+width: 50px;
+height: 30px;
+} */
+
+header{
+
+background-image:linear-gradient(rgba(212, 212, 212, 0.1) 0% 100%), url(../images/sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg) ;
+background-size: cover;
+
+
+}
+
+.myBorder{
+
+border: 3px solid #343E2B;
+border-radius: 8px;
+
+    
+}
+
+.myBorder .btn.submit{
+
+    background-color: #343E2B;
+
+}
+
+
+.myBorder .btn.update{
+
+    background-color: #0a4ddd;
+
+}
+
+.btn {
+
+    color: white;
+
+}
+
+.myTopBorder{
+
+border-top: 2px solid #343E2B;
+
+}
+
+.myRightBorder{
+
+    border-right: 2px solid #343E2B;
+
+}
+
+
+
+.myBorder .btn2{
+
+    background-color: red;
+     
+}
+
+.myBorder .btn1{
+
+background-color: #5F7A54;
+
+}
+
+
+.myBorder .btn3{
+
+background-color: #0a4ddd;
+
+}
+
+.backGround{
+
+background-color: rgba(255, 255, 255, .7);
+
+}

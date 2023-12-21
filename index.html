@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <link rel="icon" type="image/x-icon" href="./images/2899445.ico"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header class="">
+
+        <div class="w-50 m-auto ">
+
+            <div class="text-center py-5">
+                <h1 class="mb-4">Bookmarker</h1>
+                <h3>Bookmark your favorite sites</h3>
+            </div>
+
+            <div class="w-75 m-auto myBorder p-5">
+                <div>
+                    <label for="siteName">
+                        <i class="fa-solid me-2 fa-earth-americas"></i>
+                        Site Name</label>
+                </div>
+                <input type="text" name="" id="siteName" class="form-control mb-4 mt-2">
+                <div>
+                    <label for="siteUrl">
+                        <i class="fa-solid me-2 fa-link"></i>
+                        Site URL</label>
+                </div>
+                <input type="text" name="" id="siteUrl" class="form-control mb-4 mt-2">
+
+                <div id="mainBtn"  class="text-center"><button onclick="addSite()" class="btn submit mt-2 mb-4">Submit</button></div>
+
+            </div>
+
+        </div>
+
+        <!-- <table class="table table-striped w-75 m-auto mt-5 pb-5 text-center">
+
+            <thead class="">
+                <th>Index</th>
+                <th>Site Name</th>
+                <th>Visit</th>
+                <th>Delete</th>
+            </thead>
+
+            <tbody >
+                <tr>
+                    <td>1</td>
+                    <td>google</td>
+                    <td><button class="btn btn-success">
+                        <i class="fa-solid fa-eye text-white pe-2"></i>
+                        Visit</button></td>
+                    <td><button class="btn btn-danger">
+                        <i class="fa-solid fa-trash text-white pe-2"></i>
+                        Delete</button></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>google</td>
+                    <td><button class="btn btn-success">
+                        <i class="fa-solid fa-eye text-white pe-2"></i>
+                        Visit</button></td>
+                    <td><button class="btn btn-danger">
+                        <i class="fa-solid fa-trash text-white pe-2"></i>
+                        Delete</button></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>google</td>
+                    <td><button class="btn btn-success">
+                        <i class="fa-solid fa-eye text-white pe-2"></i>
+                        Visit</button></td>
+                    <td><button class="btn btn-danger">
+                        <i class="fa-solid fa-trash text-white pe-2"></i>
+                        Delete</button></td>
+                </tr>
+                
+            </tbody>
+
+        </table> -->
+
+
+        <div class="container backGround text-center mt-5 mb-5 myBorder">
+            <div class="row py-4  ">
+                <div class="col fw-bold myRightBorder">Index</div>
+                <div class="col fw-bold myRightBorder">Website Name</div>
+
+                <div class="col fw-bold myRightBorder  ">Visit</div>
+                <div class="col fw-bold myRightBorder  ">Update</div>
+                <div class="col fw-bold  ">Delete</div>
+            </div>
+
+            <div id="details">
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
